@@ -5,6 +5,7 @@ import '../css/App.css';
 import { useState } from "react";
 
 import {AnimatePresence} from 'framer-motion';
+import ContactScreen from "../pages/ContactScreen";
 
 
 function NavRoute() {
@@ -23,6 +24,8 @@ function NavRoute() {
       <Routes location={location} key={location.path} >
         <Route path="/" element={<HomeScreen />} exact />
         <Route path="/*" element={<HomeScreen />} exact />
+        <Route path="/contact" element={<ContactScreen />} exact />
+
    
 
 

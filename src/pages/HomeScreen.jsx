@@ -23,6 +23,7 @@ import HomeOpenImage from "../components/homecomp/HomeOpenImage";
 import Service from "../components/homecomp/Service";
 import TexturaComp from "../components/homecomp/TexturaComp";
 import FullImage from "../components/homecomp/FullImage";
+import HeaderSec from "../components/homecomp/HeaderSec";
 function HomeScreen() {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -37,16 +38,28 @@ function HomeScreen() {
       <HomeOpenImage offsetY={offsetY} />
 
       <div
-        style={{ transform: `translate3d(0, -${offsetY * 0.3}px,0)` }}
-        className="   bcw w100"
+     
+        className=" boxshadow  bcw w100 paddingbottom50"
       >
         <div className="paddingpage">
           <Service offsetY={offsetY} />
           <TexturaComp />
         </div>
-        <FullImage />
         
-      </div>
+        <HeaderSec/>
+         <FullImage offsetY={offsetY}/>
+    
+         <div className="paddingpage">
+          <Service offsetY={offsetY} />
+          <TexturaComp />
+        </div>
+      </div> 
+   
+
+     
+      
+   
+        
     </div>
   );
 }

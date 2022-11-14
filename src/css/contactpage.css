@@ -1,0 +1,16 @@
+.gridcols{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+.padd{
+    padding: 80px;
+}
+.kavr{
+    width: 100%;
+    height: 1px;
+    background-color: #404040;
+}
+.w30{
+    width: 30%;
+}

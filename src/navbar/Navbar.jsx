@@ -40,14 +40,14 @@ function Navbar(props) {
         <div className="logo_nav flexcol center h100">
           <h1 className="logoh1">Samia&Mali</h1>
         </div>
-      <div className="flexcol center  ">
+      <div className="flexcol center displaynon ">
       <div className="flexcol center  ">
           <NavLinks/>
           
        </div> 
        </div>
 
-       <div className="flexrow center ">
+       <div className="flexrow center displaynon">
        <div className="callNowButton">
           <span className="callnowbtn">התקשרי עכשיו</span>
         </div>

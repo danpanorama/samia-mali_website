@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: row;
 }
+.flexrowtocol{
+    display: flex;
+    flex-direction: row;
+}
 .h100vh{
     height: 100vh;
 }
@@ -58,9 +62,10 @@
     bottom: 0;
 }
 .paddingpage{
-    width: 1200px;
+    width: 1230px;
     margin: 0 auto;
 }
+
 
 
 
@@ -70,16 +75,39 @@
 
 
 
+.zindex-1{
+    z-index: -1 !important;
+}
+
+.boxshadow{
+    box-shadow: 3px 5px 10px black;
+}
 
 
 
 
 
 
+@media screen and (max-width: 702px) {
+   .displaynon{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .gridrow4{
+        grid-template-columns: 1fr  !important;
+        min-height: 30vh !important;
+        height: auto !important;
+       
+    }
 
 
+    .flexrowtocol{
+        flex-direction: column;
+    }
 
 
+}
 
 
 
@@ -87,6 +115,65 @@
 
 @media screen and (max-width: 1292px) {
     .paddingpage {
-     width: 100%;
+     width: 90%;
     }
+ .link{
+direction: rtl;
+ }
+ .gridrow{
+
+    grid-template-columns: 1fr 2fr 1fr !important;
+ }
+ .socialbuttons{
+    margin-left: 10px !important;
+ }
+   
+
+    .w50{
+        width: 100%;
+    }
+    .marginbot{
+        margin-bottom: 30px;
+    }
+    .NavFirstChild{
+       
+        width: 90% !important;
+      
+      }
+      .h1{
+        font-size: 2.5rem !important;
+        letter-spacing: 9px !important;
+  
+      }
+      .kavrohav{
+        width: 50px !important;
+
+      }
+      .buttonsTransparent{
+       margin-bottom: 20px;
+       width: 80%;
+      }
+    
+      .textalinphone{
+text-align: center;
+      }
+      .openingBg{
+        background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../images/s6.jpg');
+
+      }
+      .centerphone{
+        align-items: center;
+        justify-content: center;
+      }
+      .h50vh{
+        height: auto !important;
+        
+      }
+      .padding10{
+        padding: 5px !important;
+      }
+      .topNavPas{
+        max-height: max-content !important;
+      }
+    
   }

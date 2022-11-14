@@ -1,11 +1,13 @@
 *{
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 body{
   margin: 0;
   padding: 0;
   font-family: 'Playfair Display', serif;
+ 
 }
 .cw{
   color: white;

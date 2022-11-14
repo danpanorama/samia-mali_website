@@ -24,10 +24,10 @@ function TexturaComp(props) {
   return (
 <div   className=" ">
     
-<div className=" flexrow  ">
+<div className=" flexrowtocol  paddingbottom50">
   <div className="w50 marginright  ">
 <div className="w100  ">
-<h1 className="headerArchev colorgraydarker">A LUXURY SALON EXPERIENCE IN THE HEART OF THE FINANCIAL DISTRICT 
+<h1 className="headerArchev colorgraydarker marginbot">A LUXURY SALON EXPERIENCE IN THE HEART OF THE FINANCIAL DISTRICT 
 NYC</h1>
 </div>
 

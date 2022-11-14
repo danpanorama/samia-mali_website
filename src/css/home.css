@@ -3,9 +3,9 @@
 }
 
 .openingBg{
-    height: 89vh;
+    height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../images/a1.jpeg');
+    background-image:  url('../images/a1.jpeg');
     object-fit: cover;
     background-size: cover;
     justify-content: center;
@@ -26,7 +26,7 @@ width: 100%;
 }
 .h1{
     font-size: 5rem;
-    font-weight: 900;
+    font-weight: 100;
     letter-spacing: 15px;
     margin-bottom: 30px;
 }
