@@ -1,0 +1,79 @@
+.gridrow4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 50px;
+    width: 100%;
+    min-height: 23vh;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.square{
+    height: auto;
+    width: 100%;
+    background-color: rgb(43, 50, 50);
+
+}
+.paddingsmall{
+    margin-top: 100px;
+}
+
+.marginbottomp{
+    margin-bottom: 20px;
+}
+
+.h4{
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    
+}
+.colorgray{
+    color: #8F8F8F;
+}
+.marginright{
+    margin-right: 20px;
+}
+.colorgraydarker{
+    color: #404040;
+}
+.headerArchev{
+font-size: 3rem;
+width: 100%;
+
+   
+}
+.margintop{
+    margin-top: 50px;
+}
+.buttonsTransparent{
+    padding: 20px 50px 20px 50px ;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    font-weight: 600;
+    text-transform: uppercase;  
+    letter-spacing: 3px;
+}
+
+.buttonsTransparent:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+  
+}
+.buttons{
+    padding: 20px 30px 20px 30px ;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.buttons:hover{
+    background-color: #000;
+    color: white;
+    border: 2px solid white;
+
+}

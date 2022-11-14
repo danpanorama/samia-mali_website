@@ -1,0 +1,13 @@
+.backimagefull{
+   
+    background-image: url('../images/pexels-anastasiya-gepp-1462637.jpg');
+    background-size: cover;
+    object-fit: cover;
+   background-attachment: fixed !important;
+height: 100%;
+
+}
+.h50vh{
+    margin-top: 200px;
+    height: 50vh;
+}

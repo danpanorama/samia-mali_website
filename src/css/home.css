@@ -1,0 +1,48 @@
+.sideA{
+    background-color: rgb(71, 125, 71);
+}
+
+.openingBg{
+    height: 89vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../images/a1.jpeg');
+    object-fit: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    
+}
+.headers{
+margin-bottom: 60px;
+justify-items: center;
+justify-self: center;
+
+width: 100%;
+}
+.bcw{
+    background-color: white;
+}
+.h1{
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 15px;
+    margin-bottom: 30px;
+}
+.h2{
+    font-weight: 100;
+   
+}
+
+.endd{
+    justify-items: flex-end;
+    justify-self: flex-end;
+  
+width: 100%;
+}
+.kav{
+    width: 2px;
+     height: 50px;
+     background-color: white;
+}
