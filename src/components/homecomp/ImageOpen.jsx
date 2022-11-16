@@ -23,7 +23,7 @@ function ImageOpen(props) {
     <div style={{ transform: `translate3d(0, ${ props.offsetY * 0.6   }px,0)`}}  className="openingBg flexcol zindex-1">
 
       <div style={{ transform: `translate3d(0, -${ props.offsetY * 0.6 }px,0)`}}  className="headers flexcol center " >
-        <h1 className="h1 cw"> Samia  <span> &</span> Mali  </h1>
+        <h1 className="h1big cw"> Samia  <span> &</span> Mali  </h1>
         <h2 className="h2 cw textalinphone">הדבקת ריסים סידור גבות תסרוקות כלה ובניית ציפורניים רחוב יפת 47 יפו</h2>
       </div>
       {/* <div className="endd flexcol center"><div className="kav"></div></div> */}

@@ -212,10 +212,14 @@ direction: rtl;
       }
 
       .h1{
-        font-size: 4rem !important;
+        font-size: 2.5rem !important;
         letter-spacing: 9px !important;
         text-align: center;
   
+      }
+      .h1big{
+        letter-spacing: 9px !important;
+        text-align: center;
       }
       .kavrohav{
         width: 50px !important;
