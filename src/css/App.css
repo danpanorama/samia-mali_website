@@ -174,7 +174,7 @@ direction: rtl;
     grid-template-columns: 1fr 2fr 1fr !important;
  }
  .backimagefull{
-    background-position: center !important;
+   
     background-attachment: fixed !important;
  }
  .content{
