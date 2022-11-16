@@ -12,5 +12,51 @@
     background-color: #404040;
 }
 .w30{
-    width: 30%;
+    width: 40%;
+}
+.input{
+    height: 40px;
+    background-color: #fafafa;
+    border: 1px solid rgb(158, 158, 158);
+    outline: none;
+    width: 100%;
+}
+.margleft{
+    margin-left: 15px;
+}
+
+.w70 {
+    width: 63%;
+    margin-left: 50px;
+}
+.marginbottom20contact{
+    margin-bottom: 30px;
+}
+.smalllable{
+    font-size: .7rem;
+}
+.lable{
+    margin-bottom: 10px;
+
+}
+
+.h300px{
+    height: 300px;
+    overflow: hidden;
+}
+
+.smallimage{
+    background-color: #404040;
+ height: 100%;
+ width: 90%;
+}
+.twodivsimage{
+    height: 30%;
+}
+.caru{
+  
+    background-color: #fafafa;
+}
+.commentfirstchild{
+   height: 40vh;
 }

@@ -24,6 +24,7 @@ import Service from "../components/homecomp/Service";
 import TexturaComp from "../components/homecomp/TexturaComp";
 import FullImage from "../components/homecomp/FullImage";
 import HeaderSec from "../components/homecomp/HeaderSec";
+import CommentsComp from "../components/homecomp/CommentsComp";
 function HomeScreen() {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -50,8 +51,7 @@ function HomeScreen() {
          <FullImage offsetY={offsetY}/>
     
          <div className="paddingpage">
-          <Service offsetY={offsetY} />
-          <TexturaComp />
+       <CommentsComp/>
         </div>
       </div> 
    

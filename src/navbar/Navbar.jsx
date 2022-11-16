@@ -7,11 +7,14 @@ import { useState } from "react";
 import { useEffect } from "react";
 import TopNavComp from "./TopNavComp";
 import NavLinks from "./NavLinks";
+import Navphone from "./Navphone";
 
 function Navbar(props) {
   const dispatch = useDispatch();
   const color = useSelector((state) => state.color);
   const [windowState,setWindowState] = useState(false);
+  const [openthenav,setopenthnav] = useState(false);
+
  
 
 
@@ -28,26 +31,36 @@ function Navbar(props) {
 
   },[window.innerWidth])
 
+  function openav(){
+    setopenthnav(!openthenav)
+
+  }
+
 
 
 
   return (
-    <div className="navbar">
+    <div className="navbar ">
       <TopNavComp/>
-      <div className="Nav_all flexcol center">
+      <div className="Nav_all flexrow center">
 
       <div className="NavFirstChild gridrow h100   ">
         <div className="logo_nav flexcol center h100">
           <h1 className="logoh1">Samia&Mali</h1>
         </div>
-      <div className="flexcol center displaynon ">
+
+      <div className="flexcol center  displaynon">
       <div className="flexcol center  ">
           <NavLinks/>
           
        </div> 
+    
+     
        </div>
+     
 
        <div className="flexrow center displaynon">
+    
        <div className="callNowButton">
           <span className="callnowbtn">התקשרי עכשיו</span>
         </div>
@@ -62,10 +75,19 @@ function Navbar(props) {
 
         </div>
        </div>
+     
+       
       
 
       </div>
-      
+        <div className="visible">
+          <div onClick={openav} className="icon">=</div>
+
+          <div className={openthenav?"activenavphone":"disablenavphone"}>
+            <Navphone openav={openav}/>
+            
+          </div>
+        </div>
       
     </div>
     </div>

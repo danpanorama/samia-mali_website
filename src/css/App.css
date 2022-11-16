@@ -13,6 +13,12 @@
 .h100vh{
     height: 100vh;
 }
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
 .posrel{
     position: relative;
 }
@@ -100,10 +106,29 @@
         height: auto !important;
        
     }
-
-
+    .ttrans {
+        margin-top: 20px;
+    }
+.w30{
+    width: 100% !important;
+}
+.w70{
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+.padd{
+    padding: 15px !important;
+}
     .flexrowtocol{
         flex-direction: column;
+    }
+    .flexrowtocolrevers{
+        flex-direction: column-reverse;
+    }
+    .visible{
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: block !important;
     }
 
 
@@ -127,10 +152,22 @@ direction: rtl;
  .socialbuttons{
     margin-left: 10px !important;
  }
+   .paddingdiv {
+    padding: 20px;
    
-
+   }
+  
     .w50{
         width: 100%;
+    }
+    .w500{
+        width: 70% !important;
+        text-align: center;
+       
+    }
+  
+    .padding20pxcarusel{
+        padding: 20px;
     }
     .marginbot{
         margin-bottom: 30px;
@@ -140,6 +177,7 @@ direction: rtl;
         width: 90% !important;
       
       }
+
       .h1{
         font-size: 2.5rem !important;
         letter-spacing: 9px !important;
@@ -151,7 +189,7 @@ direction: rtl;
       }
       .buttonsTransparent{
        margin-bottom: 20px;
-       width: 80%;
+       width: 50%;
       }
     
       .textalinphone{
@@ -164,6 +202,7 @@ text-align: center;
       .centerphone{
         align-items: center;
         justify-content: center;
+     
       }
       .h50vh{
         height: auto !important;
