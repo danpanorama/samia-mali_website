@@ -97,7 +97,15 @@
     position: relative;
 }
 
-
+.bcgray{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #E4E6E5,#E9EBEA) !important;
+z-index: -999999;
+}
 
 @media screen and (max-width: 702px) {
     
