@@ -18,14 +18,41 @@ import {
   MoveIn,
 } from "react-scroll-motion";
 import ContactComp from "../components/contact/ContactComp";
+import { useState } from "react";
+import {useFormik} from "formik"
+import { sendSMS } from "../Redux/Actions/SendSMS";
 
 function ContactScreen() {
+  const dispatch = useDispatch();
+  const loader = useSelector((state)=>  state.Loader)
+ 
+
+  const sendemail = useFormik({
+    initialValues:{
+    name:"",
+    lastname:"",
+    email:'',
+    phone:0,
+    
+  },onSubmit:async values  => {
+    try{
+
+  dispatch(sendSMS(values));
+
+
+    
+    }catch(e){
+      console.log(e)
+    }
+  }});
+
+
   return (
     <div className="padd">
      
      
      <div className="paddingpage">
-     <ContactComp/>
+     <ContactComp  loader={loader} sendemail={sendemail}/>
      
      </div>
      

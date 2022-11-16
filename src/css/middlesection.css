@@ -1,12 +1,12 @@
 .backimagefull{
 position: relative;
-background-attachment: fixed;
+
 height: 100%;
 width: 100%;
 background-image: url('../images/pexels-anastasiya-gepp-1462637.jpg');
 background-size: cover;
 object-fit: cover;
-
+background-attachment: fixed;
 }
 
 

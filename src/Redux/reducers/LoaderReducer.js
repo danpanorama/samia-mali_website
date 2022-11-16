@@ -1,7 +1,8 @@
 import * as actionTypes from "../constants/loaderConstant.js";
 
 const initialState = {
-Loader:false
+Loader:false,
+msg:''
 };
 
 const reducer = (state = initialState, action) => {
@@ -15,10 +16,18 @@ const reducer = (state = initialState, action) => {
         ...state,
       };
       
-      console.log('l')
+      
       loader.Loader = true
    
       return loader;
+
+      case actionTypes.SET_MSG:
+        const msg = { 
+          ...state,
+        }
+        msg.msg = action.data;
+
+        return msg
 
 
       case actionTypes.STOP_LOAD:
