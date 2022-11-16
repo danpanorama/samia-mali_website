@@ -33,11 +33,11 @@ function Navphone(props) {
 
   return (
     <div className="flexcol center visible navphone h100">
-        <h1 onClick={props.openav} className="h1 cw">X</h1>
+        <h1 onClick={props.openav} className="h1 "><ion-icon name="close-outline"></ion-icon></h1>
        
 
         <div className="firstchildnavphone flexcol  center">
-  <h1 className="h1 cw">S&M</h1>
+  <h1 className="h1 ">S&M</h1>
         <NavLink to={'/'} className='linkphone' >דף הבית</NavLink>
         <NavLink to={'/contact'} className='linkphone' >   צור קשר</NavLink>
 
@@ -50,7 +50,7 @@ function Navphone(props) {
 
         <NavLink to={'/'} className='linkphone' > תוספות </NavLink>
 
-       <h4 className="h4">03-657481</h4>
+       <h4 className="h4 shape">03-657481</h4>
         </div>
 
        

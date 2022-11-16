@@ -25,7 +25,7 @@ function Service(props) {
 <div   className=" flexcol center">
     
 <div className=" gridrow4 w90">
-  <div className="square s1">
+  <div className="square  s1">
     <h3 className="headerinsideSqeare"><div className="content">תסרוקות</div></h3>
   </div>
   <div className="square s2">

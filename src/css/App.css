@@ -95,6 +95,7 @@
 
 
 @media screen and (max-width: 702px) {
+  
    .displaynon{
         display: none;
         opacity: 0;
@@ -130,7 +131,14 @@
         visibility: visible !important;
         display: block !important;
     }
-
+.kavrohav{
+    visibility: hidden;
+    display: none;
+}
+.linkphone{
+padding: 5px !important;
+font-size: 1.4rem !important;
+}
 
 }
 
@@ -139,15 +147,26 @@
 
 
 @media screen and (max-width: 1292px) {
+    body{
+        background-image: linear-gradient(to right, #696569,#989095,#696569) !important;
+    }
     .paddingpage {
      width: 90%;
     }
+
  .link{
 direction: rtl;
  }
  .gridrow{
 
     grid-template-columns: 1fr 2fr 1fr !important;
+ }
+ .backimagefull{
+    background-position: center !important;
+ }
+ .content{
+    width: 100%;
+    text-align: center;
  }
  .socialbuttons{
     margin-left: 10px !important;

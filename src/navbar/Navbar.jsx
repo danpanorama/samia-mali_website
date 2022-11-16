@@ -81,7 +81,8 @@ function Navbar(props) {
 
       </div>
         <div className="visible">
-          <div onClick={openav} className="icon">=</div>
+          <div onClick={openav} className="icon"><ion-icon name="reorder-four-outline"></ion-icon>
+</div>
 
           <div className={openthenav?"activenavphone":"disablenavphone"}>
             <Navphone openav={openav}/>
