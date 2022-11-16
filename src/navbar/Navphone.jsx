@@ -41,7 +41,7 @@ function Navphone(props) {
         <NavLink to={'/'} className='linkphone' >דף הבית</NavLink>
         <NavLink to={'/contact'} className='linkphone' >   צור קשר</NavLink>
 
-        <NavLink to={'/'} className='linkphone' > תוספות שיער</NavLink>
+        <NavLink to={'/extras'} className='linkphone' > תוספות שיער</NavLink>
 
         <NavLink to={'/'} className='linkphone' > תסרוקות</NavLink>
    
