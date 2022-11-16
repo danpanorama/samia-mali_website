@@ -20,7 +20,7 @@ import "../../css/App.css";
 
 function ImageOpen(props) {
   return (
-    <div style={{ transform: `translate3d(0, ${ props.offsetY * 0.7 }px,0)`}}  className="openingBg flexcol zindex-1">
+    <div style={{ transform: `translate3d(0, ${ props.offsetY * 0.8 }px,0)`}}  className="openingBg flexcol zindex-1">
 
       <div style={{ transform: `translate3d(0, -${ props.offsetY * 0.5 }px,0)`}}  className="headers flexcol center " >
         <h1 className="h1 cw"> Samia & Mali  </h1>

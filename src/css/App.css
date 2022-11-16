@@ -89,12 +89,26 @@
     box-shadow: 3px 5px 10px black;
 }
 
+.iconin{
+    font-size: 2rem;
+}
 
-
-
+.home{
+    position: relative;
+}
+.bcgray{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #C0B4B9,#C0B4B9) !important;
+z-index: -999999;
+}
 
 
 @media screen and (max-width: 702px) {
+    
   
    .displaynon{
         display: none;
@@ -147,9 +161,7 @@ font-size: 1.4rem !important;
 
 
 @media screen and (max-width: 1292px) {
-    body{
-        background-image: linear-gradient(to right, #696569,#989095,#696569) !important;
-    }
+
     .paddingpage {
      width: 90%;
     }
@@ -163,6 +175,7 @@ direction: rtl;
  }
  .backimagefull{
     background-position: center !important;
+    background-attachment: fixed !important;
  }
  .content{
     width: 100%;
@@ -208,14 +221,14 @@ direction: rtl;
       }
       .buttonsTransparent{
        margin-bottom: 20px;
-       width: 50%;
+  
       }
     
       .textalinphone{
 text-align: center;
       }
       .openingBg{
-        background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../images/s6.jpg');
+        background-image:linear-gradient( #C0B4B9 0% 2%,#C0B4B9 6%  ,transparent 10% 100%),  url('../images/s6.jpg');
 
       }
       .centerphone{

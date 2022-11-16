@@ -36,7 +36,7 @@ function Navphone(props) {
         <h1 onClick={props.openav} className="h1 "><ion-icon name="close-outline"></ion-icon></h1>
        
 
-        <div className="firstchildnavphone flexcol  center">
+        <div className="firstchildnavphone flexcol  center" onClick={props.openav}>
   <h1 className="h1 ">S&M</h1>
         <NavLink to={'/'} className='linkphone' >דף הבית</NavLink>
         <NavLink to={'/contact'} className='linkphone' >   צור קשר</NavLink>

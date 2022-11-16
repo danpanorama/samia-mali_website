@@ -35,7 +35,10 @@ function HomeScreen() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className="home">
+    <div className="home ">
+      <div className="bcgray">
+        
+      </div>
       <HomeOpenImage offsetY={offsetY} />
 
       <div
