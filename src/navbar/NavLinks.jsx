@@ -16,7 +16,7 @@ function NavLinks(props) {
         <NavLink to={'/'} className='link' >דף הבית</NavLink>
         <NavLink to={'/contact'} className='link' >   צור קשר</NavLink>
 
-        <NavLink to={'/'} className='link' > תוספות שיער</NavLink>
+        <NavLink to={'/extras'} className='link' > תוספות שיער</NavLink>
 
         <NavLink to={'/'} className='link' > תסרוקות</NavLink>
         </div>

@@ -1,0 +1,68 @@
+.imagebgbig{
+    background-image: url('../images/pexels-olena-ukraine-1021693.jpg');
+    object-fit: cover;
+    background-size: cover;
+   position: relative;
+   width: 100%;
+height: 100%;
+
+   background-position: center;
+   margin-bottom: 30px;
+
+}
+.smallImage{
+    background-image: url('../images/pexels-pixabay-89785.jpg');
+    object-fit: cover;
+    background-size: cover;
+   position: relative;
+   width: 100%;
+height: 100%;
+min-height: 300px;
+max-width: 50%;
+   background-position: center;
+   margin-bottom: 30px;
+   background-attachment: fixed;
+
+
+}
+.w400{
+    width: 40%;
+}
+.smallImage::after{
+    
+}
+.gridosh{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-height: 500px;
+    overflow: hidden;
+}
+.headerSections{
+    font-size: 5rem;
+    font-weight: 100;
+    letter-spacing: 15px;
+  
+}
+.paregr{
+    width: 70%;
+    align-self: flex-end;
+    text-align: right;
+    direction: rtl;
+    
+}
+.headersExtras{
+    margin-bottom: 30px;
+}
+
+.imagebgbig::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+
+.h44{
+    align-self: flex-end;
+    text-align: right;
+    direction: rtl;
+}
