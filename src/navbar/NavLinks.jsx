@@ -18,7 +18,7 @@ function NavLinks(props) {
 
         <NavLink to={'/extras'} className='link' > תוספות שיער</NavLink>
 
-        <NavLink to={'/'} className='link' > תסרוקות</NavLink>
+        <NavLink to={'/hairstyle'} className='link' > תסרוקות</NavLink>
         </div>
         <div className="flexrow marginbottom5">
         <NavLink to={'/'} className='link' > הבית</NavLink>

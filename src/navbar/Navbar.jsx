@@ -62,7 +62,7 @@ function Navbar(props) {
        <div className="flexrow center displaynon">
     
        <div className="callNowButton">
-          <span className="callnowbtn">התקשרי עכשיו</span>
+          <span className="callnowbtn"> call now</span>
         </div>
        
         <div className="socialbuttons flexrow center">

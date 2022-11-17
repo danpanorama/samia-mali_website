@@ -31,11 +31,11 @@ function HairExtraComp() {
   return (
     <div className="w100">
         <div className="headersExtras flexcol center">
-            <h1 className="headerSections">Extras</h1>
+            <h1 className="headerSections">HairStyle</h1>
             <p className="text">Paris</p>
         </div>
         <div className="gridosh">
-            <div className="imagebgbig immg1"></div>
+            <div className="imagebgbig immg2"></div>
 
         </div>
         <div className="textParegraph w100 flexcol ">

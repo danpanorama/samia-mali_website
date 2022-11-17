@@ -1,5 +1,4 @@
 .imagebgbig{
-    background-image: url('../images/pexels-olena-ukraine-1021693.jpg');
     object-fit: cover;
     background-size: cover;
    position: relative;
@@ -10,6 +9,12 @@ height: 100%;
    margin-bottom: 30px;
 
 }
+.immg1{
+    background-image: url('../images/pexels-olena-ukraine-1021693.jpg');
+}
+.immg2{
+    background-image: url('../images/a1.jpeg');
+}
 .smallImage{
     background-image: url('../images/pexels-pixabay-89785.jpg');
     object-fit: cover;
@@ -18,11 +23,15 @@ height: 100%;
    width: 100%;
 height: 100%;
 min-height: 300px;
+
 max-width: 50%;
    background-position: center;
    margin-bottom: 30px;
 
 
+}
+.tac{
+    text-align: center;
 }
 .w400{
     width: 40%;
@@ -37,17 +46,30 @@ max-width: 50%;
     overflow: hidden;
 }
 .headerSections{
-    font-size: 5rem;
+    font-size: 3.6rem;
     font-weight: 100;
     letter-spacing: 15px;
   
 }
+
 .paregr{
-    width: 70%;
+   
     align-self: flex-end;
     text-align: right;
     direction: rtl;
+  
     
+}
+.fsize1{
+    font-size: 1.4rem;
+
+    
+}
+.fw100{
+    font-weight: 100;
+}
+.tar{
+    text-align: right;
 }
 .headersExtras{
     margin-bottom: 30px;
@@ -64,4 +86,5 @@ max-width: 50%;
     align-self: flex-end;
     text-align: right;
     direction: rtl;
+    
 }
