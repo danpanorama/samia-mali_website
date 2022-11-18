@@ -20,7 +20,6 @@ function Footer() {
        </div>
         <h1 className="cw">05-4039642</h1>
         <h1 className="cw h4">samia&mali</h1>
-        
       </div>
   
     </div>
