@@ -1,6 +1,6 @@
 import "./nav.css";
 import "../css/App.css";
-import { Routes, NavLink, Route, Router } from "react-router-dom";
+import {  NavLink} from "react-router-dom";
 
 
 function NavLinks(props) { 
