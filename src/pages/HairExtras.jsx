@@ -19,11 +19,15 @@ import {
 } from "react-scroll-motion";
 import ContactComp from "../components/contact/ContactComp";
 import HairExtraComp from "../components/haircomp/HairExtraComp";
+import { useState,useEffect } from "react";
 
 
 function HairExtras() {
 
- 
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
  
 

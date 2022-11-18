@@ -21,12 +21,16 @@ import ContactComp from "../components/contact/ContactComp";
 import HairExtraComp from "../components/haircomp/HairExtraComp";
 import HairStyle from "../components/haircomp/HairStyle";
 
+import { useState,useEffect } from "react";
 
 function HairStyleScreen() {
 
  
 
- 
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
   return (
     <div className="padd paddingpage">
