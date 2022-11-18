@@ -108,6 +108,11 @@ z-index: -999999;
 }
 
 @media screen and (max-width: 702px) {
+    .buttonsTransparent{
+        background-color: #fff !important;
+        color: black !important;
+        border: 2px solid black !important;
+    }
     .w400{
         width: auto !important;
     }

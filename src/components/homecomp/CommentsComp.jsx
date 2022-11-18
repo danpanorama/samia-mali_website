@@ -27,6 +27,7 @@ function CommentsComp(props) {
   return (
     <div className="  ">
         <Info/>
+        <h1 className="tac fw100 colorgraydarker">Comments we get all the time</h1>
         <CommentsCarusel/>
 
      
